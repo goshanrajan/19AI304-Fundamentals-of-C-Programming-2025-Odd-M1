@@ -4,7 +4,7 @@
 ## 2. Implementation of different categories of operators.
 # Ex.No:1
   Build a C program to demonstrate the usage of different types of literals: integer, float, character, and string.  
-# Date : 
+# Date : 27/12/25
 # Aim:
 To build a C program that prints integer, float,character, and string literals on the console using the printf() function.
 # Algorithm:
@@ -71,7 +71,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include <stdio.h>
+
+#define PI 3.14159
+
+int main() {
+    const int DAYS = 7;
+
+    printf("Value of PI (Macro): %f\n", PI);
+    printf("Value of DAYS (Constant Variable): %d\n", DAYS);
+
+    return 0;
+}
+```
 # Output:
+<img width="1917" height="693" alt="image" src="https://github.com/user-attachments/assets/a899f949-94ed-4f40-9983-08618c3b5e1d" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
