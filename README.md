@@ -111,8 +111,28 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
+#include <stdio.h>
+
+int main() {
+    int age = 20;
+    float price = 10.50;
+    double distance = 1234.56789;
+    char grade = 'A';
+
+    printf("Integer value: %d\n", age);
+    printf("Float value: %f\n", price);
+    printf("Double value: %lf\n", distance);
+    printf("Character value: %c\n", grade);
+
+    return 0;
+}
+```
 # Output:
+<img width="1911" height="682" alt="image" src="https://github.com/user-attachments/assets/d5dc5d7e-a7f6-462a-ac27-1f54a005f45b" />
+
 # Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
