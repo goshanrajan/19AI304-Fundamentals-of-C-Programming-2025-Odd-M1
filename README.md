@@ -49,7 +49,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:2
   Build a C program to display the value of a macro constant and a constant variable.
-# Date : 
+# Date : 27/12/25
 # Aim:
   To build a C program that demonstrates the use of macro constants and constant variables.
 # Algorithm:
@@ -96,7 +96,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:3
   Build a C program to demonstrate the use of different data types such as int, float, double, and char, and display their values using printf().
-# Date : 
+# Date : 27/12/25
 # Aim:
   To build a C program that declares variables of various data types—integer, float, double, and character—initializes them, and prints their values on the screen.
 # Algorithm:
@@ -138,7 +138,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
   Build a C program to perform arithmetic and bitwise operations on two integers entered by the user. The program should display: Arithmetic operations: addition, subtraction, multiplication, division, and remainder. Bitwise operations: AND, OR, XOR, left shift, right shift, and NOT.
-# Date : 
+# Date : 27/12/25
 # Aim:
   To build a C program that takes two integers as input and demonstrates the arithmetic and bitwise operations, displaying the results of each operation.
 # Algorithm:
@@ -170,7 +170,31 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("Arithmetic Operations\n");
+    printf("Sum (%d + %d): %d\n", a, b, a + b);
+    printf("Difference (%d - %d): %d\n", a, b, a - b);
+    printf("Product (%d * %d): %d\n", a, b, a * b);
+    printf("Quotient (%d / %d): %d\n", a, b, a / b);
+    printf("Remainder (%d %% %d): %d\n", a, b, a % b);
+    printf("Bitwise Operations\n");
+    printf("AND (%d & %d): %d\n", a, b, a & b);
+    printf("OR (%d | %d): %d\n", a, b, a | b);
+    printf("XOR (%d ^ %d): %d\n", a, b, a ^ b);
+    printf("Left Shift (%d << %d): %d\n", a, b, a << b);
+    printf("Right Shift (%d >> %d): %d\n", a, b, a >> b);
+    printf("NOT a (~%d): %d\n", a, ~a);
+    printf("NOT b (~%d): %d\n", b, ~b);
+    return 0;
+}
+```
 # Output:
+<img width="1911" height="746" alt="image" src="https://github.com/user-attachments/assets/5d1be732-3fd7-4bf3-96fa-2f3f9106010b" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -179,7 +203,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:5
   Develop a C program to check whether a given character is a vowel, consonant, digit, or special symbol using the ternary operator.
-# Date : 
+# Date : 27/12/25
 # Aim:
   To develop and implement a C program that classifies a character as a vowel, consonant, digit, or special symbol using the ternary operator.
 # Algorithm:
@@ -215,7 +239,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+int main() {
+    char ch;
+    scanf("%c", &ch);
+
+    (ch >= '0' && ch <= '9') 
+        ? printf("Digit\n") 
+        : ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) 
+            ? (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
+               ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') 
+                ? printf("Vowel\n") : printf("Consonant\n") : printf("SpecialSymbol\n");
+    return 0;
+}
+```
 # Output:
+<img width="1913" height="691" alt="image" src="https://github.com/user-attachments/assets/277f6500-fcb3-4654-9c29-849c6d6529bc" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
