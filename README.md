@@ -49,7 +49,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:2
   Build a C program to display the value of a macro constant and a constant variable.
-# Date : 27/12/25
+# Date : 13/11/25
 # Aim:
   To build a C program that demonstrates the use of macro constants and constant variables.
 # Algorithm:
@@ -138,7 +138,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
   Build a C program to perform arithmetic and bitwise operations on two integers entered by the user. The program should display: Arithmetic operations: addition, subtraction, multiplication, division, and remainder. Bitwise operations: AND, OR, XOR, left shift, right shift, and NOT.
-# Date : 27/12/25
+# Date : 13/11/25
 # Aim:
   To build a C program that takes two integers as input and demonstrates the arithmetic and bitwise operations, displaying the results of each operation.
 # Algorithm:
@@ -203,7 +203,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:5
   Develop a C program to check whether a given character is a vowel, consonant, digit, or special symbol using the ternary operator.
-# Date : 27/12/25
+# Date : 13/11/25
 # Aim:
   To develop and implement a C program that classifies a character as a vowel, consonant, digit, or special symbol using the ternary operator.
 # Algorithm:
